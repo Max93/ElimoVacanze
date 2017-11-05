@@ -1,0 +1,16 @@
+{
+	"it": [
+		{
+			"menuItem": "Home",
+			"source": "index.hbs",
+			"itemLink": "index.html"
+		}
+	],
+	"en": [
+		{
+			"menuItem": "Home",
+			"source": "index.hbs",
+			"itemLink": "index.html"
+		}
+	]
+}
