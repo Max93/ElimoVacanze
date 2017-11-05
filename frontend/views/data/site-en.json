@@ -1,0 +1,38 @@
+{
+	"lang": "en",
+	"title": "Elimo Vacanze",
+	"brandName": "Elimo Vacanze",
+
+	"pageHome": {
+		"siteTitle": "Home page",
+		"layoutColor": "dark",
+		"meta": {
+			"description": "",
+			"keywords": "Elimo, Holiday, Sicily",
+			"ogTitle": "Home - Elimo Vacanze",
+			"ogImage": "",
+			"mobileHeaderColor": "#000"
+		}
+	},
+
+	"footer": {
+		"follow": "Follow us",
+		"followOnFacebook": "Follow Elimo Vacanze su Facebook",
+		"followOnInstagram": "Follow Elimo Vacanze su Instagram",
+		"followOnTwitter": "Follow Elimo Vacanze su Twitter",
+		"fbLink": "https://www.facebook.com/",
+		"isLink": "https://www.instagram.com/",
+		"twLink": "https://twitter.com/",
+		"copyrights": "Copyright &reg; 2017 - Elimo Vacanze"
+	},
+
+	"buttons": {
+		"scroll": "Scroll",
+		"discover": "Discover",
+		"book": "Book",
+		"submit": "Send",
+		"add": "Add",
+		"edit": "Edit",
+		"backtohome": "Back to home"
+	}
+}
