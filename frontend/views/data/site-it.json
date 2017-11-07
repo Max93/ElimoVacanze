@@ -7,22 +7,20 @@
 		"siteTitle": "Home",
 		"layoutColor": "dark",
 		"meta": {
-			"description": "",
-			"keywords": "Elimo, Vacanze, Sicilia",
+			"description": "Elimo Vacanze dispone di tre case autonome e indipendenti, in un museo a cielo aperto tra mare, a 100m e la Riserva di Monte Cofano. Il contesto è quello  di un baglio rurale con verande vista mare  e con la possibilita di ospitare fino a 20 persone",
+			"author": "Massimo Ruggirello",
+			"keywords": "elimo vacanze, appartamenti al mare, appartamenti in affitto, cornino, custonaci, San Vito lo Capo",
 			"ogTitle": "Home - Elimo Vacanze",
 			"ogImage": "",
 			"mobileHeaderColor": "#000"
-		}
+		},
+		"banner": "img/cornino-3.jpg"
 	},
 
 	"footer": {
 		"follow": "Seguici su",
 		"followOnFacebook": "Segui Elimo Vacanze su Facebook",
-		"followOnInstagram": "Segui Elimo Vacanze su Instagram",
-		"followOnTwitter": "Segui Elimo Vacanze su Twitter",
-		"fbLink": "https://www.facebook.com/",
-		"isLink": "https://www.instagram.com/",
-		"twLink": "https://twitter.com/",
+		"fbLink": "https://it-it.facebook.com/ElimoCaseVacanze",
 		"copyrights": "Copyright &reg; 2017 - Elimo Vacanze"
 	},
 
@@ -34,5 +32,17 @@
 		"add": "Aggiungi",
 		"edit": "Modifica",
 		"backtohome": "Torna alla home"
-	}
+	},
+
+	"navigationItems": [{
+		"itemType": "",
+		"linkType": "brand",
+		"itemTitle": "",
+		"itemLink": "/"
+    }, {
+		"itemType": "dropdown",
+		"linkType": "dropdown-toggle",
+		"itemTitle": "Proprietà",
+		"itemLink": ""
+    }]
 }

@@ -1,9 +1,19 @@
-<div class="socials">
-  <p>{{footer.follow}}</p>
-  <a href="{{footer.fbLink}}" class="follow fb" target="_blank">{{footer.followOnFacebook}}</a>
-  <a href="{{footer.isLink}}" class="follow is" target="_blank">{{footer.followOnInstagram}}</a>
-  <a href="{{footer.twLink}}" class="follow tw" target="_blank">{{footer.followOnTwitter}}</a>
-</div>
-<div class="copy">
-  <p>{{{footer.copyrights}}}</p>
+<div class="footer-container">
+  <div class="container">
+    <div class="footer-bottom">
+      <div class="row">
+        <div class="span6">
+          <p>{{{footer.copyrights}}}</p>
+        </div>
+        <div class="span6">
+          <div class="social pull-right">
+            <ul>
+              <li><a class="facebook" title="{{footer.followOnFacebook}}" href="{{footer.fbLink}}"> {{footer.followOnFacebook}} </a></li>
+              <li><a class="email" title="" href="mailto:elimovacanze@gmail.com?Subject=Informazioni%20Elimo%20Vacanze"> Email </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -23,7 +23,7 @@ const NAVIGATION = require("./frontend/views/data/nav.json");
 
 gulp.task("css", function() {
 	return gulp
-		.src(`${SOURCE_DIR}/css/main.less`)
+		.src(`${SOURCE_DIR}/css/*.less`)
 		.pipe(
 			less().on("error", function(err) {
 				var displayErr = gutil.colors.red(err);
@@ -59,7 +59,7 @@ gulp.task("js", function() {
 });
 
 gulp.task("html", function() {
-	let languages = LANGUAGES.map(lang => {
+	var languages = LANGUAGES.map(lang => {
 		return merge(
 			NAVIGATION[lang].map(page => {
 				return gulp
@@ -69,7 +69,7 @@ gulp.task("html", function() {
 							var content = frontMatter(String(file.contents));
 							file.contents = new Buffer(content.body);
 
-							let templateData = JSON.parse(
+							var templateData = JSON.parse(
 								fs.readFileSync(
 									`${SOURCE_DIR}/views/data/site-${lang}.json`
 								)

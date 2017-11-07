@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="{{ lang }}" xml:lang="{{ lang }}" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
-        <title>{{ title }} - Elimo Vacanze</title>
+        <meta content="text/html">
+        <meta http-equiv="Content-Type">
+        <title>{{ title }} - Elimo Vacanze | Custonaci</title>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
         <meta name="theme-color" content="{{meta.mobileHeaderColor}}" />
       	<meta name="msapplication-navbutton-color" content="{{meta.mobileHeaderColor}}">
       	<meta name="apple-mobile-web-app-capable" content="yes">
       	<meta name="apple-mobile-web-app-status-bar-style" content="{{meta.mobileHeaderColor}}">
         <meta name="description" content="{{ meta.description }}">
+        <meta name="author" content="{{ meta.author }}">
         <meta name="keywords" content="{{meta.keywords}}">
         <meta property="og:title" content="{{ meta.ogTitle }}" />
         <meta property="og:description" content="{{ meta.description }}" />
@@ -23,17 +26,18 @@
         {{> header }}
       {{/header-block}}
 
-      {{> nav navigationItems=navigation }}
-
-      {{#> content}}
-        {{!-- Hero content goes here. --}}
-      {{/content}}
+      <div class="main-content">
+          {{#> content}}
+          {{/content}}
+      </div>
 
       <footer>
         {{#> footer-block}}
           {{> footer }}
         {{/footer-block}}
       </footer>
+
+      <div id='bttop'>BACK TO TOP</div>
 
       {{#> scripts-block}}
         {{> scripts }}
