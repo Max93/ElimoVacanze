@@ -1,0 +1,19 @@
+{
+	"groups": [
+		{
+			"title": "Il Baglio",
+			"subtitle" : "Tra mare e riserva",
+			"thumbnail": "http://via.placeholder.com/350x150"
+		},
+		{
+			"title" : "Casale Cantarre",
+			"subtitle" : "Tra mare e collina",
+			"thumbnail": "http://via.placeholder.com/350x150"
+		},
+		{
+			"title" : "Viale Madonna",
+			"subtitle" : "Centro storico",
+			"thumbnail": "http://via.placeholder.com/350x150"
+		}
+	]
+}

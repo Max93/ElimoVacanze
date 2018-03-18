@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="css/main.css?v1" />
+    </head>
+    <body>
+      <div class="section">
+        {{#each groups}}
+          <div class="cardContainer">
+            <a class="card" href="" rel="next" title="{{this.title}}">
+              <img alt="alt" src="{{this.thumbnail}}" style="display: none;"/>
+              <div class='card--image' style="background-image: url('{{this.thumbnail}}')">
+              </div>
+              <h1>{{this.title}}</h1>
+              <h2>{{this.subtitle}}</h2>
+            </a>
+          </div>
+        {{/each}}
+      </div>
+    </body>
+</html>

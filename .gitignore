@@ -1,5 +1,4 @@
-.data
-/node_modules/
-*/.DS_Store
+dist/
+node_modules/
+yarn-error.log
 .DS_Store
-web/

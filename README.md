@@ -1,9 +1,11 @@
-# ElimoVacanze
+# ElimoVacanze website
 
-# How to run
+ElimoVacanze Sources file
 
-* npm i
+## Getting Started
 
-* gulp watch
+```
+docker-compose run node yarn 
 
-* go to http://localhost:3000/it
+docker-compose run node yarn build && open dist/index.html
+```
